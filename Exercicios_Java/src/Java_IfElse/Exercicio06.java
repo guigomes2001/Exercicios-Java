@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Exercicio06 {
 
 	public static void main(String[] args) {
+		
+		//Leitor básico de comparação e apresentação de maior digitado
 
 		Scanner leitor = new Scanner(System.in);
 

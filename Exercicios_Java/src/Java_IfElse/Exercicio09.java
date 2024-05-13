@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Exercicio09 {
 
     public static void main(String[] args) {
+    	
+    	//Leitor básico com retorno de saudação conforme período do dia
         
         Scanner leitor = new Scanner(System.in);
         
@@ -15,7 +17,6 @@ public class Exercicio09 {
         char v = 'V';
         char n = 'N';
         
-        
         if(turno.equalsIgnoreCase(String.valueOf(m))) {
             System.out.println("Bom dia");
         } else if(turno.equalsIgnoreCase(String.valueOf(v))) {
@@ -23,7 +24,6 @@ public class Exercicio09 {
         } else if(turno.equalsIgnoreCase(String.valueOf(n))){
             System.out.println("Boa noite");
         }
-        
         
         leitor.close();
 

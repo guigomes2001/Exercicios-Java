@@ -6,6 +6,8 @@ public class Exercicio07 {
 
 	public static void main(String[] args) {
 		
+		//Outro leitor básico de valores buscando o melhor preço
+		
 		Scanner leitor = new Scanner(System.in);
 		
 		System.out.println("Informe 3 valores de produtos para que o programa retorne o produto ideal para compra: ");

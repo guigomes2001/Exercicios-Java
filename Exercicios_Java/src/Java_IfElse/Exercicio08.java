@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Exercicio08 {
 
 	public static void main(String[] args) {
+		
+		//Leitor comparativo de números e retorno em ordem decrescente
+		
 		Scanner leitor = new Scanner(System.in);
 
 		System.out.println("Digite 4 números:");
