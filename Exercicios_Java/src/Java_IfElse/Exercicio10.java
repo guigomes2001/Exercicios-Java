@@ -6,6 +6,8 @@ public class Exercicio10 {
 
 	public static void main(String[] args) {
 
+		//Leitor básico utilizando loop-switch (Com loop de reinicialização)
+
 		Scanner leitor = new Scanner(System.in);
 
 		boolean reiniciar = true;
