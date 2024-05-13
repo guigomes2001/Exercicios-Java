@@ -6,6 +6,8 @@ public class Exercicio01 {
 
 	public static void main(String[] args) {
 		
+		//Leitor básico com If-Else para comparação de maior/menor
+		
 		Scanner leitor = new Scanner(System.in);
 		
 		System.out.println("Informe 2 números para comparação de maior/menor: ");
