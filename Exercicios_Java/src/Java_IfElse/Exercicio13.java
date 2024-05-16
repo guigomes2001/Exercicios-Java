@@ -6,15 +6,16 @@ public class Exercicio13 {
     public static void main(String[] args) {
     	
     	//Leitor básico de datas em java 
-    	
-        Scanner scanner = new Scanner(System.in);
-        
+
+        Scanner leitor = new Scanner(System.in);
+
+  
         boolean reiniciar = true;
         
         while(reiniciar) {
         	
         System.out.println("Digite uma data no formato dd/mm/aaaa: ");
-        String data = scanner.nextLine();
+        String data = leitor.nextLine();
 
         if (validarData(data)) {
             System.out.println("A data " + data + " é válida.");
@@ -23,7 +24,7 @@ public class Exercicio13 {
         }
 
     }
-        scanner.close();
+        leitor.close();
     }
 
     public static boolean validarData(String data) {
