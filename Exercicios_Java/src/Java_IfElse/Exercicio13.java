@@ -8,7 +8,6 @@ public class Exercicio13 {
     	//Leitor básico de datas em java 
     	
         Scanner scanner = new Scanner(System.in);
-
         
         boolean reiniciar = true;
         
@@ -23,7 +22,6 @@ public class Exercicio13 {
             System.out.println("A data " + data + " é inválida.");
         }
 
-       
     }
         scanner.close();
     }
