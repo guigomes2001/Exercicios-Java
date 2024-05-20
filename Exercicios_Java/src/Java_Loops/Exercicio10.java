@@ -6,6 +6,8 @@ public class Exercicio10 {
 
 	public static void main(String[] args) {
 
+		//Programa de retorno de números inteiros entre os números informados 
+		
 		Scanner leitor = new Scanner(System.in);
 
 		boolean reiniciar = true;
