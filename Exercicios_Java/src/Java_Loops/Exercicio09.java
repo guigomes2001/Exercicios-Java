@@ -17,7 +17,7 @@ public class Exercicio09 {
 		
 		System.out.println();
 		
-		// Programa com retorno de números ímpares
+		// Programa com retorno de números pares
 		
 		System.out.println("Números pares entre 1 e 50:");
 		System.out.println();
