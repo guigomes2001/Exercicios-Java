@@ -43,7 +43,7 @@ public class Exercicio08 {
 		int start = 0;
 
 		for (int i = 0; i < vetorA.length; i++) {
-			if (vetorA[i] % 5 == 0) {
+			if (vetorA[i] % 5 == 0) { //Alterando o valor do módulo, o programa retorna outros valores divisíveis pelos elementos do Array 
 				start++;
 			}
 		}
