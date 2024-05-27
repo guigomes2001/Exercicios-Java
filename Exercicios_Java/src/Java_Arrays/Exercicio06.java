@@ -30,7 +30,6 @@ public class Exercicio06 {
 			vetorC[i] = vetorB[i] / vetorA[i];
 			System.out.print(vetorC[i] + " ");
 		}
-
 	}
 
 }
