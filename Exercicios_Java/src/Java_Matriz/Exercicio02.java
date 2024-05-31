@@ -6,7 +6,7 @@ public class Exercicio02 {
 
 	public static void main(String[] args) {
 
-		// Programa básico com utilização de Matriz com saída de > < Linha - Coluna
+		//Programa básico com utilização de Matriz com saída de > < Linha - Coluna
 
 		Random aleatorio = new Random();
 
