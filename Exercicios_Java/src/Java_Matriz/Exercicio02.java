@@ -46,15 +46,13 @@ public class Exercicio02 {
 		int menorC7 = Integer.MAX_VALUE;
 
 		for (int i = 0; i < numAleatorio.length; i++) {
-			for (int j = 0; j < numAleatorio[i].length; j++) {
-				if (numAleatorio[i][j] > maiorC7) {
-					maiorC7 = numAleatorio[i][j];
+				if (numAleatorio[i][6] > maiorC7) {
+					maiorC7 = numAleatorio[i][6];
 				}
-				if (numAleatorio[i][j] < menorC7) {
-					menorC7 = numAleatorio[i][j];
+				if (numAleatorio[i][6] < menorC7) {
+					menorC7 = numAleatorio[i][6];
 				}
 			}
-		}
 		System.out.println("O maior valor da coluna 7 é: " + maiorC7);
 		System.out.println("O menor valor da coluna 7 é: " + menorC7);
 	}
