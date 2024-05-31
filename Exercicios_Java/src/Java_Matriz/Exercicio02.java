@@ -56,6 +56,6 @@ public class Exercicio02 {
 			}
 		}
 		System.out.println("O maior valor da coluna 7 é: " + maiorC7);
-		System.out.println("O menor vaor da coluna 7 é: " + menorC7);
+		System.out.println("O menor valor da coluna 7 é: " + menorC7);
 	}
 }
