@@ -31,10 +31,7 @@ public class Exercicio10 {
 			for (int i = num1; i <= num2; i++) {
 				System.out.println(i);
 			}
-
 		}
 		leitor.close();
-
 	}
-
 }

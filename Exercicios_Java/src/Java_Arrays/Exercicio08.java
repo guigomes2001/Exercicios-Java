@@ -9,8 +9,6 @@ public class Exercicio08 {
 
 		int soma = calcularSoma(vetorA);
 
-		int divisivel = calcularDivisao(vetorA);
-
 		System.out.println("Os valores contidos no vetor A são: \n");
 		for (int i = 0; i < vetorA.length; i++) {
 			System.out.println(vetorA[i] + " ");

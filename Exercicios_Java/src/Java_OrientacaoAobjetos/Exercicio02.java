@@ -1,4 +1,4 @@
-package Java_ClassesEatributos;
+package Java_OrientacaoAobjetos;
 
 import java.util.Scanner;
 
