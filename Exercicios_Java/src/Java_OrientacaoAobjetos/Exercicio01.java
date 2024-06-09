@@ -4,7 +4,7 @@ public class Exercicio01 {
 
 	public static void main(String[] args) {
 
-		//Programa básico de objeto representando informações de uma lâmpada - Métodos
+		//Programa básico de objeto representando informações de uma lâmpada - Métodos  
 
 		Lampada objeto = new Lampada();
         
@@ -27,7 +27,7 @@ public class Exercicio01 {
 
 	}
 
-	static class Lampada {
+	 static class Lampada {
 
 		String tipo;
 		String cor;
