@@ -4,10 +4,10 @@ public class Exercicio01 {
 
 	public static void main(String[] args) {
 
-		// Programa básico de objeto representando informações de uma lâmpada - Métodos
+		//Programa básico de objeto representando informações de uma lâmpada - Métodos
 
 		Lampada objeto = new Lampada();
-
+        
 		objeto.tipo = "Led";
 		objeto.cor = "Transparente";
 		objeto.marca = "Philips";
